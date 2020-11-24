@@ -113,6 +113,54 @@ def countPoints(opc, r, gabarito):
       break
   
   return pontos
+  
+  def showNinja(pontos):    
+    '''
+    Esse método confere os pontos obtidos pelo usuario e exibe o ninja
+    com o qual ele se "parece".
+    
+    '''
+      print("\nO ninja que mais parece com você é.... ")
+
+      if pontos <= 5:
+        print(f'''\n
+        
+        Naruto:
+        "Aquele que trabalha duro pode superar um gênio, mas de nada
+        adianta trabalhar duro se você não confia em você mesmo…"
+        
+        \n
+        ''')
+      
+      elif pontos <= 10:
+        print(f'''\n
+        
+        Jiraya:
+        "Não te perdoou!"
+
+        \n
+        ''')
+
+      elif pontos <= 15:
+        print(f'''\n
+        
+        SubZero:
+        "Tá frio aqui... me dá um abraço?"
+
+        \n
+        ''')
+      
+      else:
+        print(f'''\n
+        
+       Gray Fox:
+       "O conflito está em nosso sangue. Não podemos negar.
+        Eu nasci no campo de batalha ... E vou morrer no campo de batalha.
+        Tudo que posso fazer é lutar, Snake ... tudo que posso fazer é lutar."
+
+        \n
+        ''')
+  
 #------------------------------------x-----------------------------------#
 
 
@@ -148,4 +196,4 @@ for i in range(len(ord_Perguntas)):
     res = input('\nDigite uma das opções acima: \n')
     somaPontos  += countPoints(opc, res, ord_Alternativas)
 
-print('\nTotal de Pontos Obtidos', somaPontos)
+showNinja(somaPontos)
