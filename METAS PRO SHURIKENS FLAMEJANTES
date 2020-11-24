@@ -1,0 +1,50 @@
+PAG - HOME:
+
+TOPO: NOME/ICONE = HOME // NINJAS SOBRE // QUIZ: QUE NINJA VOCÊ É? // SOBRE A GENTE
+----|-------------------|---------------|--------------------------|----------------|
+
+NINJAS SOBRE == B:
+
+FALA SOBRE OS NINJA - HISTÓRIA //
+
+FOTO & TEXTO /
+
+--------------------------------------
+
+QUIZ == QUIZ
+
+5X PERGUNTAS?
+
+4 ALTERNATIVAS
+
+A: VALE 1 PONTOS -- 05 -> NARUTO
+B: VALE 2 PONTOS -- 10 -> SUBZERO
+C: VALE 3 PONTOS -- 15 -> JIRAYA 
+D: VALE 4 PONTOS -- 20 -> GRAY FOX
+
+ORDEM DAS ALTERNATIVAS SEJA ALEATORIA.
+ORDEM DAS PERGUNTAS ALEATORIA.
+
+-----------------------
+NÃO TEM.
+
+RESULTADO:
+
+FOTO NINJA
+
+"FRASE DE EFEITO"
+
+-----------------------
+
+SOBRE - A GENTE.
+
+-----------------------
+
+CADASTRO - PERGUNTA
+CADASTRO - ALTERNATIVA
+CADASTRO - User
+LOGIN    - VALIDA USER 
+
+Regra de Negocio:
+Só o Admin pode cadastrar
+perguntas e alternativas.
