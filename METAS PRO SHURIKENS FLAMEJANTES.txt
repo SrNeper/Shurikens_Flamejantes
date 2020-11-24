@@ -24,8 +24,9 @@ D: VALE 4 PONTOS -- 20 -> GRAY FOX
 
 ORDEM DAS ALTERNATIVAS SEJA ALEATORIA.
 ORDEM DAS PERGUNTAS ALEATORIA.
+RESULTADO -> ARREDONDA PRA CIMA
 
------------------------
+-------------------------------------
 NÃO TEM.
 
 RESULTADO:
