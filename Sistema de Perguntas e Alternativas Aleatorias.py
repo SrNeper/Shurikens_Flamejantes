@@ -1,8 +1,5 @@
 import random
 
-'''Fiz a lógica aqui do nosso sistema, em python, agora temos que adapatar pro Haskel xD
-   e fazer a conexão correta com o banco ao invés de usar essa matriz/tupla. '''
-
 perguntas = (
 
 'Qual desses esportes, você faria?',                          #0
@@ -16,7 +13,7 @@ perguntas = (
 alternativas = (
 
   {#00 - Pergunta: Esporte
-    #Resposta       ->      Valor
+    #Valor        -> Resposta
     0:' Alpinismo ',             #Naruto    
     1:' Formula 1 ',             #Jiraya
     2:' Esqui no Gelo ',         #SubZero
@@ -25,7 +22,7 @@ alternativas = (
   },
   
   {#01 - Pergunta: Lugar
-    #Resposta       ->      Valor
+    #Valor        -> Resposta
     0:' Amazonia ',              #Naruto
     1:' Provincia de Iga ',      #Jiraya
     2:' Alaska ',                #SubZero
@@ -34,7 +31,7 @@ alternativas = (
   },
 
   {#02 - Pergunta: Comida
-    #Resposta       ->      Valor
+    #Valor        -> Resposta
     0:' Ramen ',                  #Naruto
     1:' Arroz Doce ',             #Jiraya
     2:' Sorvete ',                #SubZero
@@ -43,7 +40,7 @@ alternativas = (
   },
   
   {#03 - Pergunta: Arma
-    #Resposta       ->      Valor
+    #Valor        -> Resposta
     0:' Kunai ',                  #Naruto
     1:' Shuriken ',               #Jiraya
     2:' Meus Punhos ',            #SubZero
@@ -52,7 +49,7 @@ alternativas = (
   },
   
   {#04 - Pergunta: Jeito Ninja!
-    #Resposta       ->      Valor
+   #Valor        -> Resposta     
     0:' Eu nunca volto atrás na minha palavra ',       #Naruto
     
     1:' Não tenho misericordia dos meus inimigos. ',   #Jiraya
@@ -90,9 +87,9 @@ def getRandomNumberList(start, end):
 def countPoints(opc, r, gabarito):
 
   ''' Com a resposta "r", essa função 
-  confere o gabarito e marca quantos pontos
-  o jogador fez. Além disso ela valida a opc
-  digitada. '''
+  confere o "gabarito" e marca quantos pontos
+  o jogador fez. Além disso ela também valida 
+  a opção digitada pelo usuario é valida. '''
 
   pontos = 0
 
@@ -113,54 +110,50 @@ def countPoints(opc, r, gabarito):
       break
   
   return pontos
-  
-  def showNinja(pontos):    
-    '''
-    Esse método confere os pontos obtidos pelo usuario e exibe o ninja
-    com o qual ele se "parece".
+
+
+def showNinja(pontos):    
+
+  print("\nO ninja que mais parece com você é.... ")
+
+  if pontos <= 5:
+    print(f'''\n
     
-    '''
-      print("\nO ninja que mais parece com você é.... ")
-
-      if pontos <= 5:
-        print(f'''\n
-        
-        Naruto:
-        "Aquele que trabalha duro pode superar um gênio, mas de nada
-        adianta trabalhar duro se você não confia em você mesmo…"
-        
-        \n
-        ''')
-      
-      elif pontos <= 10:
-        print(f'''\n
-        
-        Jiraya:
-        "Não te perdoou!"
-
-        \n
-        ''')
-
-      elif pontos <= 15:
-        print(f'''\n
-        
-        SubZero:
-        "Tá frio aqui... me dá um abraço?"
-
-        \n
-        ''')
-      
-      else:
-        print(f'''\n
-        
-       Gray Fox:
-       "O conflito está em nosso sangue. Não podemos negar.
-        Eu nasci no campo de batalha ... E vou morrer no campo de batalha.
-        Tudo que posso fazer é lutar, Snake ... tudo que posso fazer é lutar."
-
-        \n
-        ''')
+    Naruto:
+    "Aquele que trabalha duro pode superar um gênio, mas de nada
+    adianta trabalhar duro se você não confia em você mesmo…"
+    
+    \n
+    ''')
   
+  elif pontos <= 10:
+    print(f'''\n
+    
+    Jiraya:
+    "Não te perdoou!"
+
+    \n
+    ''')
+
+  elif pontos <= 15:
+    print(f'''\n
+    
+    SubZero:
+    "Tá frio aqui... me dá um abraço?"
+
+    \n
+    ''')
+  
+  else:
+    print(f'''\n
+    
+   Gray Fox:
+   "O conflito está em nosso sangue. Não podemos negar.
+    Eu nasci no campo de batalha ... E vou morrer no campo de batalha.
+    Tudo que posso fazer é lutar, Snake ... tudo que posso fazer é lutar."
+
+    \n
+    ''')
 #------------------------------------x-----------------------------------#
 
 
