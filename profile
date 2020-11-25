@@ -1,1 +1,1 @@
-export YESOD_PORT=$PORT
+web: aulahaskell
