@@ -41,3 +41,15 @@ $doctype 5
                             <br>Era descrito como bem comportado e inteligente, porém sempre com medos e receios, além de ser de natureza fria. Acreditava que seu papel ia além do que uma sociedade normal esperava devido aos seus instintos nativos de luta.
                             <br>
                             <p>Estreou como personagem da Série de jogos Metal Gear Solid em 1987.
+                    <div .row .row-bottom-padded-lg>
+                        <div .col-md-3 .col-md-push-8>
+                            <div .icon>
+                                <img #img .img-responsive .image src=@{StaticR imgs_jiraya_png} alt="Imagem do Jiraya" title="Foto do Jiraya">
+                        <div .col-md-7 .col-md-pull-3>
+                            <h4 .number>02.
+                            <h2>Touha Yamaji | Jiraya
+                            <p>Jiraya foi treinado por seu pai adotivo para tornar-se um ninja e sucedê-lo. Ao ter a irmã raptada, recebeu a armadura Olímpica e sua respectiva arma, a Espada Olímpica.
+                            <br>Suas técnicas, agilidade e talento natos, faz com que se torne um ninja absolutamente invencível, matando praticamente todos os outros ninjas que lutam contra ele.
+                            <br>Mesmo em situações adversas, quando lutou contra dois ao mesmo tempo, e também contra três, conseguiu tirar a vida de seus inimigos com facilidade.
+                            <br>
+                            <p>Estreou na Rede Manchete em 1989 e ficou no ar pela Rede TV até 1999.
