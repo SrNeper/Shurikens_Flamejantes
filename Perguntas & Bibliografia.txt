@@ -1,8 +1,60 @@
-SOBRE:
-------|-------------------|
+﻿NINJAS:
 
-#Gustavo
+------------------NARUTO------------------
+Naruto é exuberante, ousado, desatento,
+descuidado e indiferente para a formalidade
+ou posições sociais. Ele costuma terminar 
+frases com "Tô Certo!" quando animado ou
+frustrado. Come quase exclusivamente lámen,
+tem medo de fantasmas, além de carregar uma
+carteira gordinha de um sapo verde. Apesar 
+dessas peculiaridades, Naruto é dito ter uma
+personalidade que atrai as pessoas a ele,
+tendo uma amizade inspiradora e lealdade que
+a maioria das pessoas encontram nele através
+de seus atos de bondade e sinceridade genuína
+que pode mudar toda visão do mundo de um homem. 
 
+--------------FRASE MARCANTE:------------------
+"Aquele que trabalha duro pode superar um gênio,
+mas de nada adianta trabalhar duro se você não
+confia em você mesmo…"
+================================================
+
+------------------JIRAYA------------------
+Jiraya foi treinado por seu pai adotivo para
+tornar-se um ninja e sucedê-lo. Ao ter a irmã
+raptada, recebeu a armadura Olímpica e sua
+respectiva arma, a Espada Olímpica. Suas técnicas,
+agilidade e talento natos, faz com que se torne
+um ninja absolutamente invencível, matando
+praticamente todos os outros ninjas que lutam
+contra ele. Mesmo em situações adversas, quando
+lutou contra dois ao mesmo tempo, e também contra
+três, conseguiu tirar a vida de seus inimigos
+com facilidade.
+
+--------------FRASE MARCANTE:------------------
+"Não te perdoou!"
+================================================
+
+------------------SUB-ZERO------------------
+Enquanto o jovem Sub-Zero foi descrito como
+um jovem guerreiro que estava vivendo na sombra
+de seu irmão mais velho, ele mudou desde então
+e cresceu em um guerreiro que progrediu para os
+lados mais humanos de questões morais. Esta
+mudança de características não só fortaleceu-o 
+omo um homem, mas também o distinguem de seus
+ex-colegas. Ele é o herói enigmático que aparece
+para ajudar o herói principal, quando necessário.
+
+--------------FRASE MARCANTE:------------------
+"Eu obterei minha vingaça!"
+================================================
+
+
+<<<<<<< Updated upstream
 Naruto:
 "Aquele que trabalha duro pode superar um gênio,mas,de nada adianta trabalhar duro se você não confia em você mesmo…"
 
@@ -12,10 +64,36 @@ Tudo que posso fazer é lutar, Snake ... tudo que posso fazer é lutar. "
 
 
 Jiraya:
+<<<<<<< HEAD
 "Não te perdoou!"
 	
+=======
+"Não te perdoo!"
+
+>>>>>>> acd1bdc7d30cc6d4f2ac7ce1c94d70b63aba1377
 SubZero:
 ""
+=======
+------------------GRAY FOX------------------
+Tinha visões ruins a respeito da vida, sempre
+negativo acerca de qualquer crença ou tipo
+de pensamento, acreditando que não adiantaria
+poupar algo ou alguém, já que tudo viria a
+morrer algum dia. Era descrito como bem
+comportado e inteligente, porém sempre com medos
+e receios, além de ser de natureza fria.
+Acreditava que seu papel ia além do que uma
+sociedade normal esperava devido aos seus
+instintos nativos de luta.
+
+--------------FRASE MARCANTE:------------------
+"O conflito está em nosso sangue. Não podemos
+negar. Eu nasci no campo de batalha ...
+E vou morrer no campo de batalha.
+Tudo que posso fazer é lutar, Snake ... 
+tudo que posso fazer é lutar. "
+================================================
+>>>>>>> Stashed changes
 
 
 PERGUNTAS: QUE NINJA VOCÊ É?
