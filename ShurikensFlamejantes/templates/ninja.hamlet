@@ -66,3 +66,17 @@ $doctype 5
                         <br>
                         <p>Estreou como personagem da Série de jogos Mortal Kombat em 1992.
                 <div .row>
+                <div .col-md-3 .col-md-push-8>
+                        <div .icon>
+                            <img #img .img-responsive .image src=@{StaticR imgs_naruto_png} alt="Imagem do Naruto" title="Desenho do Naruto">
+                    <div .col-md-7 .col-md-pull-3>
+                        <h4 .number>04.
+                        <h2>Naruto Uzumaki | Jinchūriki da 9 Caldas
+                        <p>Naruto é exuberante, ousado, desatento, descuidado e indiferente para a formalidade ou posições sociais. Ele costuma terminar frases com "Tô Certo!" quando animado ou frustrado.
+                        <br>Come quase exclusivamente lámen, tem medo de fantasmas, além de carregar uma carteira gordinha de um sapo verde.
+                        <br>Apesar dessas peculiaridades, Naruto é dito ter uma personalidade que atrai as pessoas a ele, tendo uma amizade inspiradora e lealdade que a maioria das pessoas encontram nele através de seus atos de bondade e sinceridade genuína que pode mudar toda visão do mundo de um homem. 
+                        <br>
+                        <p>Estreou como personagem do Manga Naruto em 1999.
+
+                    
+        <footer>
