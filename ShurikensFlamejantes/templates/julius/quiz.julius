@@ -30,8 +30,8 @@
     })
   });
 
-   var questionCounter = 0; //Tracks question number
-  var selections = []; //Array containing user choices
+   var questionCounter = 0; //Tracks numeros das questoes
+  var selections = []; //Array com as escolhas usuário
   var quiz = $('#quiz'); //Quiz div object
 
   // Display initial question
