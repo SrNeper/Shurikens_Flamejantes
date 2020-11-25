@@ -36,6 +36,16 @@ getPerguntaR = do
                 ^{widget}
                 <input type="submit" value="Cadastrar">
         |]
-        
+
 postPerguntaR :: Handler Html
 postPerguntaR = do 
+    ((result,_),_) <- runFormPost formPergunta
+    case result of 
+        FormSuccess pergunta -> do 
+            runDB $ insert pergunta 
+            setMessage [shamlet|
+                <div>
+                    Pergunta incluida
+            |]
+            redirect PerguntaR
+        _ -> redirect HomeR
