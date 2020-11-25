@@ -18,3 +18,6 @@ import Data.Text (Text, concat)
 formPergunta :: Form Pergunta
 formPergunta = renderBootstrap $ Pergunta
     <$> areq textField "Descrição: " Nothing
+
+getPerguntaR :: Handler Html
+getPerguntaR = do    
