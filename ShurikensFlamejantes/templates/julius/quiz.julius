@@ -1,0 +1,22 @@
+(function() {
+  var perguntas = [];
+  var alternativas = [];
+  var questions = [];
+  
+  $.ajax({
+    url: "@{QuizPerguntaR}",
+    async: false,
+    type: "GET",
+    success: function(data) {
+        perguntas = data;
+    }
+  });
+  
+  $.ajax({
+    url: "@{QuizRespostaR}",
+    async: false,
+    type: "GET",
+    success: function(data) {
+        alternativas = data;
+    }
+  });
