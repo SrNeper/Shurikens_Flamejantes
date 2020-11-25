@@ -28,6 +28,10 @@ RESULTADO -> ARREDONDA PRA CIMA
 
 SE NÃO ROLAR, SUBIMOS UM SUPER QUIZ DE CERTO E ERRADO xD
 
+No fim, ficamos com o plano B.
+
+LEMBRANDO QUE PRA EXECUTAR é stack exec aulahaskell
+
 -------------------------------------
 NÃO TEM.
 
@@ -49,5 +53,5 @@ CADASTRO - User
 LOGIN    - VALIDA USER 
 
 Regra de Negocio:
-Só o Admin pode cadastrar
-perguntas e alternativas.
+Só o User cadastrado pode
+ver as perguntas cadastradas.
