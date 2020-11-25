@@ -297,6 +297,7 @@ footer button:hover{
 }
 
 footer button.show{
+    color: black;
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
