@@ -33,7 +33,7 @@ $doctype 5
                     <div .row .row-bottom-padded-lg>
                         <div .col-md-3>
                             <div .icon>
-                                <img #img .img-responsive .image src=@{StaticR imgs_grayfox_png} alt="Imagem do Gray Fox" title="Desenho do Gray Fox">
+                                <img #img .img-responsive .image src=@{StaticR imgs_grayfox_jpeg} alt="Imagem do Gray Fox" title="Desenho do Gray Fox">
                         <div .col-md-8 .col-md-push-1>
                             <h4 .number>01.
                             <h2>Frank Jaeger | Gray Fox
@@ -44,7 +44,7 @@ $doctype 5
                     <div .row .row-bottom-padded-lg>
                         <div .col-md-3 .col-md-push-8>
                             <div .icon>
-                                <img #img .img-responsive .image src=@{StaticR imgs_jiraya_png} alt="Imagem do Jiraya" title="Foto do Jiraya">
+                                <img #img .img-responsive .image src=@{StaticR imgs_jiraya_jpeg} alt="Imagem do Jiraya" title="Foto do Jiraya">
                         <div .col-md-7 .col-md-pull-3>
                             <h4 .number>02.
                             <h2>Touha Yamaji | Jiraya
@@ -56,7 +56,7 @@ $doctype 5
                     <div .row .row-bottom-padded-lg>
                     <div .col-md-3>
                         <div .icon>
-                            <img #img .img-responsive .image src=@{StaticR imgs_subzero_png} alt="Imagem do Sub-Zero" title="Desenho do Subzero">
+                            <img #img .img-responsive .image src=@{StaticR imgs_subzero_jpeg} alt="Imagem do Sub-Zero" title="Desenho do Subzero">
                     <div .col-md-8 .col-md-push-1>
                         <h4 .number>03.
                         <h2>Kuai Liang | Sub-Zero
@@ -65,18 +65,19 @@ $doctype 5
                         <br>Ele é o herói enigmático que aparece para ajudar o herói principal, quando necessário.
                         <br>
                         <p>Estreou como personagem da Série de jogos Mortal Kombat em 1992.
-                <div .row>
-                <div .col-md-3 .col-md-push-8>
-                        <div .icon>
-                            <img #img .img-responsive .image src=@{StaticR imgs_naruto_png} alt="Imagem do Naruto" title="Desenho do Naruto">
+                <div .row .row-bottom-padded-lg>
+                        <div .col-md-3 .col-md-push-8>
+                            <div .icon>
+                                <img #img .img-responsive .image src=@{StaticR imgs_naruto_jpeg} alt="Imagem do Naruto" title="Desenho do Naruto">
                     <div .col-md-7 .col-md-pull-3>
-                        <h4 .number>04.
-                        <h2>Naruto Uzumaki | Jinchūriki da 9 Caldas
-                        <p>Naruto é exuberante, ousado, desatento, descuidado e indiferente para a formalidade ou posições sociais. Ele costuma terminar frases com "Tô Certo!" quando animado ou frustrado.
-                        <br>Come quase exclusivamente lámen, tem medo de fantasmas, além de carregar uma carteira gordinha de um sapo verde.
-                        <br>Apesar dessas peculiaridades, Naruto é dito ter uma personalidade que atrai as pessoas a ele, tendo uma amizade inspiradora e lealdade que a maioria das pessoas encontram nele através de seus atos de bondade e sinceridade genuína que pode mudar toda visão do mundo de um homem. 
-                        <br>
-                        <p>Estreou como personagem do Manga Naruto em 1999.
-
-                    
+                            <h4 .number>04.
+                            <h2>Naruto Uzumaki | Jinchūriki da 9 Caldas
+                            <p>Naruto é exuberante, ousado, desatento, descuidado e indiferente para a formalidade ou posições sociais. Ele costuma terminar frases com "Tô Certo!" quando animado ou frustrado.
+                            <br>Come quase exclusivamente lámen, tem medo de fantasmas, além de carregar uma carteira gordinha de um sapo verde.
+                            <br>Mesmo em situações adversas, quando lutou contra dois ao mesmo tempo, e também contra três, conseguiu tirar a vida de seus inimigos com facilidade.
+                            <br>Apesar dessas peculiaridades, Naruto é dito ter uma personalidade que atrai as pessoas a ele, tendo uma amizade inspiradora e lealdade que a maioria das pessoas
+                            <br>encontram nele através de seus atos de bondade e sinceridade genuína que pode mudar toda visão do mundo de um homem. 
+                            <br>
+                            <p>Estreou como personagem do Manga Naruto em 1999.
+                        
         <footer>
