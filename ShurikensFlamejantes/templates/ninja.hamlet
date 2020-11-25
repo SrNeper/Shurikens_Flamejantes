@@ -24,8 +24,20 @@ $doctype 5
                                         SOBRE NÓS
         <div .hero .hero-2>
                 <div .overlay>
-                <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR wallpaper_jpg});">
+                <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
                     <div .desc animate-box>
                         <h2>Ninjas
                         <span> Também conhecidos como Shinobis, ou guerreiros das sombras, trabalhavam como agentes secretos ou mercenários do Japão feudal. Como especialistas na arte da guerra, suas funções incluíam espionagem, sabotagem, infiltração, assassinato e guerrilha assim como combate aberto em determinadas situações...
             <div #services>
+                <div .container>
+                    <div .row .row-bottom-padded-lg>
+                        <div .col-md-3>
+                            <div .icon>
+                                <img #img .img-responsive .image src=@{StaticR imgs_grayfox_png} alt="Imagem do Gray Fox" title="Desenho do Gray Fox">
+                        <div .col-md-8 .col-md-push-1>
+                            <h4 .number>01.
+                            <h2>Frank Jaeger | Gray Fox
+                            <p>Tinha visões ruins a respeito da vida, sempre negativo acerca de qualquer crença ou tipo de pensamento, acreditando que não adiantaria poupar algo ou alguém, já que tudo viria a morrer algum dia.
+                            <br>Era descrito como bem comportado e inteligente, porém sempre com medos e receios, além de ser de natureza fria. Acreditava que seu papel ia além do que uma sociedade normal esperava devido aos seus instintos nativos de luta.
+                            <br>
+                            <p>Estreou como personagem da Série de jogos Metal Gear Solid em 1987.
