@@ -53,3 +53,16 @@ $doctype 5
                             <br>Mesmo em situações adversas, quando lutou contra dois ao mesmo tempo, e também contra três, conseguiu tirar a vida de seus inimigos com facilidade.
                             <br>
                             <p>Estreou na Rede Manchete em 1989 e ficou no ar pela Rede TV até 1999.
+                    <div .row .row-bottom-padded-lg>
+                    <div .col-md-3>
+                        <div .icon>
+                            <img #img .img-responsive .image src=@{StaticR imgs_subzero_png} alt="Imagem do Sub-Zero" title="Desenho do Subzero">
+                    <div .col-md-8 .col-md-push-1>
+                        <h4 .number>03.
+                        <h2>Kuai Liang | Sub-Zero
+                        <p>Enquanto o jovem Sub-Zero foi descrito como um jovem guerreiro que estava vivendo na sombra de seu irmão mais velho, ele mudou desde então e cresceu em um guerreiro que progrediu para os lados mais humanos de questões morais.
+                        <br>Esta mudança de características não só fortaleceu-o como um homem, mas também o distinguem de seus ex-colegas.
+                        <br>Ele é o herói enigmático que aparece para ajudar o herói principal, quando necessário.
+                        <br>
+                        <p>Estreou como personagem da Série de jogos Mortal Kombat em 1992.
+                <div .row>
