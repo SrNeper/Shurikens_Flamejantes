@@ -80,3 +80,48 @@
     displayNext();
     $('#start').hide();
   });
+  // Animações botões e Hover
+  $('.button').on('mouseenter', function () {
+    $(this).addClass('active');
+  });
+  $('.button').on('mouseleave', function () {
+    $(this).removeClass('active');
+  });
+  
+  // Retornar Perguntas e respotas
+  function createQuestionElement(index) {
+    var qElement = $('<div class="quiz_box activeQuiz">', {
+      id: 'question'
+    });
+    
+    var header = $('<header><div class="title">Questão ' + (index + 1) + ':</div></header>');
+    qElement.append(header);
+    
+    var question = $('<span>').append(questions[index].question);
+    qElement.append(question);
+    
+    var radioButtons = createRadios(index);
+    qElement.append(radioButtons);
+    
+    return qElement;
+  }
+  
+  // Lista com as escolhas
+  function createRadios(index) {
+    var radioList = $('<div class="option_list">');
+    var item;
+    var input = '';
+    for (var i = 0; i < questions[index].choices.length; i++) {
+      item = $('<div class="option">');
+      input = '<span><input type="radio" name="answer" value=' + i + ' />  </div>';
+      input += questions[index].choices[i].descricao;
+      item.append(input);
+      radioList.append(item);
+    }
+    return radioList;
+  }
+  
+  // Pegar resposta e jogar no array
+  function choose() {
+    selections[questionCounter] = +$('input[name="answer"]:checked').val();
+  }
