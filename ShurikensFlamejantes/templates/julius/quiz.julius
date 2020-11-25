@@ -1,0 +1,179 @@
+(function() {
+  var perguntas = [];
+  var alternativas = [];
+  var questions = [];
+  
+  $.ajax({
+    url: "@{QuizPerguntaR}",
+    async: false,
+    type: "GET",
+    success: function(data) {
+        perguntas = data;
+    }
+  });
+  
+  $.ajax({
+    url: "@{QuizRespostaR}",
+    async: false,
+    type: "GET",
+    success: function(data) {
+        alternativas = data;
+    }
+  });
+
+  perguntas.forEach(function(pergunta, index){
+    alternativasQuestao = alternativas.filter(function(a){return a.perguntaid == index + 1})
+    questions.push({
+      question: pergunta.descricao,
+      choices: alternativasQuestao,
+      correctAnswer: alternativasQuestao.indexOf(alternativasQuestao.filter(function(ap){return ap.iscorreta})[0])
+    })
+  });
+
+   var questionCounter = 0; //Tracks numeros das questoes
+  var selections = []; //Array com as escolhas usuário
+  var quiz = $('#quiz'); //Quiz div object
+
+  // Display initial question
+  displayNext();
+  
+  // Click handler for the 'next' button
+  $('#next').on('click', function (e) {
+    e.preventDefault();
+    
+    // Suspend click listener during fade animation
+    if(quiz.is(':animated')) {        
+      return false;
+    }
+    choose();
+    
+    // If no user selection, progress is stopped
+    if (isNaN(selections[questionCounter])) {
+      alert('Por favor, selecione uma resposta!!');
+    } else {
+      questionCounter++;
+      displayNext();
+    }
+  });
+
+  // Click handler for the 'prev' button
+  $('#prev').on('click', function (e) {
+    e.preventDefault();
+    
+    if(quiz.is(':animated')) {
+      return false;
+    }
+    choose();
+    questionCounter--;
+    displayNext();
+  });
+  
+  // Animacao botão
+  $('#start').on('click', function (e) {
+    e.preventDefault();
+    
+    if(quiz.is(':animated')) {
+      return false;
+    }
+    questionCounter = 0;
+    selections = [];
+    displayNext();
+    $('#start').hide();
+  });
+  // Animações botões e Hover
+  $('.button').on('mouseenter', function () {
+    $(this).addClass('active');
+  });
+  $('.button').on('mouseleave', function () {
+    $(this).removeClass('active');
+  });
+  
+  // Retornar Perguntas e respotas
+  function createQuestionElement(index) {
+    var qElement = $('<div class="quiz_box activeQuiz">', {
+      id: 'question'
+    });
+    
+    var header = $('<header><div class="title">Questão ' + (index + 1) + ':</div></header>');
+    qElement.append(header);
+    
+    var question = $('<span>').append(questions[index].question);
+    qElement.append(question);
+    
+    var radioButtons = createRadios(index);
+    qElement.append(radioButtons);
+    
+    return qElement;
+  }
+  
+  // Lista com as escolhas
+  function createRadios(index) {
+    var radioList = $('<div class="option_list">');
+    var item;
+    var input = '';
+    for (var i = 0; i < questions[index].choices.length; i++) {
+      item = $('<div class="option">');
+      input = '<span><input type="radio" name="answer" value=' + i + ' />  </div>';
+      input += questions[index].choices[i].descricao;
+      item.append(input);
+      radioList.append(item);
+    }
+    return radioList;
+  }
+  
+  // Pegar resposta e jogar no array
+  function choose() {
+    selections[questionCounter] = +$('input[name="answer"]:checked').val();
+  }
+
+  // Botão de proxima questao
+  function displayNext() {
+    quiz.fadeOut(function() {
+      $('#question').remove();
+      
+      if(questionCounter < questions.length){
+        var nextQuestion = createQuestionElement(questionCounter);
+        quiz.append(nextQuestion).fadeIn();
+        if (!(isNaN(selections[questionCounter]))) {
+          $('input[value='+selections[questionCounter]+']').prop('checked', true);
+        }
+        
+        // Controls display of 'prev' button
+        if(questionCounter === 1){
+          $('#prev').show();
+        } else if(questionCounter === 0){
+          $('#prev').hide();
+          $('#next').show();
+        }
+      }else {
+        var scoreElem = displayScore();
+        quiz.append(scoreElem).fadeIn();
+        $('#next').hide();
+        $('#prev').hide();
+        $('#start').show();
+      }
+    });
+  }
+  // Resultado do Quiz
+  function displayScore() {
+    var score = $('<p>',{id: 'question'});
+    
+    var numCorrect = 0;
+    for (var i = 0; i < selections.length; i++) {
+      if (selections[i] === questions[i].correctAnswer) {
+        numCorrect++;
+      }
+    }
+    
+	  if(numCorrect === 1){
+		score.append('Você acertou ' + numCorrect + ' questão de ' +
+					questions.length);
+	  }else{
+		score.append('Você acertou ' + numCorrect + ' questões de ' +
+					questions.length);
+					}
+    return score;
+  }
+
+ 
+})();

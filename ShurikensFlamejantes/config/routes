@@ -3,9 +3,25 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/                         HomeR     GET 
-/produto                  ProdutoR  GET POST
-/produto/#ProdutoId/desc  DescR     GET
-/produtos                 ListaR    GET
-/produto/#ProdutoId/modificar UpdProdR  GET POST
-/produto/#ProdutoId/del       DelProdR  POST
+
+/                         HomeR             GET     -- Home 
+/ninja                    NinjaR            GET     -- Info sobre os Ninjas 
+/sobre                    SobreR            GET     -- Info sobre o site/trabalho.
+
+--Sistema de Login.
+/cadastro                 UsuarioR          GET POST
+/entrar                   EntrarR           GET POST
+/sair                     SairR             POST
+
+--Perguntas
+/pergunta                 PerguntaR         GET POST --Insere uma pergunta no banco
+/alternativa              AlternativaR      GET POST --Insere N alternativas as perguntas cadastradas.
+
+/listaquestoes            ListaQuestoesR    GET      --Exibe todas as questões cadastradas, se o usuario tiver logado.
+
+/quiz                     QuizR             GET      --Exibe o quiz pro usuario
+/quizpergunta             QuizPerguntaR     GET      --Exibe uma pergunta.
+/quizresposta             QuizRespostaR     GET      --Exibe o resultado final.
+
+
+
