@@ -2,3 +2,23 @@ Produto
     nome  Text
     preco Double 
     deriving Show
+
+-- Se der, implementamos o Login p/ cadastrar as perguntas e as alternativas.
+Usuario
+    nome Text
+    email Text
+    senha Text
+    UniqueEmailRest email
+    deriving Show
+
+-- Ao todo são 12 perguntas sobre os ninjas + épicos da cultura pop.
+Pergunta json
+    descricao Text
+    deriving Eq Ord Show
+
+-- Cada pergunta tem 4 alternativas, 3 erradas e 1 certa.
+Alternativa json
+    perguntaid PerguntaId
+    descricao Text
+    iscorreta Bool
+    deriving Eq Ord Show
