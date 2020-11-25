@@ -24,3 +24,17 @@ formAlternativa = renderBootstrap $ Alternativa
     <$> areq (selectField perguntaCB) "Pergunta: " Nothing
     <*> areq textField "Alternativa: " Nothing --testar
     <*> areq boolField "É correta?: " Nothing
+
+-- Subindo alternativas para o banco
+postAlternativaR :: Handler Html
+postAlternativaR = do
+    ((result,_),_) <- runFormPost formAlternativa
+    case result of
+        FormSuccess alternativa -> do
+            runDB $ insert alternativa
+            setMessage [shamlet|
+                <h2>
+                    ALTERNATIVA INSERIDA COM SUCESSO
+            |]
+            redirect AlternativaR
+        _ -> redirect HomeR
