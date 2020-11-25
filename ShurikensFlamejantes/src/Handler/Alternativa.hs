@@ -38,3 +38,22 @@ postAlternativaR = do
             |]
             redirect AlternativaR
         _ -> redirect HomeR
+
+-- Pegar a alternativa do usuário
+getAlternativaR :: Handler Html
+getAlternativaR = do 
+    (widget,_) <- generateFormPost formAlternativa
+    msg <- getMessage
+    defaultLayout $ 
+        [whamlet|
+            $maybe mensa <- msg 
+                <div>
+                    ^{mensa}
+            
+            <h1>
+                CADASTRO DA Alternativa
+            
+            <form method=post action=@{AlternativaR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
+        |]
