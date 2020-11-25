@@ -20,4 +20,22 @@ formPergunta = renderBootstrap $ Pergunta
     <$> areq textField "Descrição: " Nothing
 
 getPerguntaR :: Handler Html
-getPerguntaR = do    
+getPerguntaR = do 
+    (widget,_) <- generateFormPost formPergunta
+    msg <- getMessage
+    defaultLayout $ 
+        [whamlet|
+            $maybe mensa <- msg 
+                <div>
+                    ^{mensa}
+            
+            <h1>
+                CADASTRO DE PERGUNTA
+            
+            <form method=post action=@{PerguntaR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
+        |]
+        
+postPerguntaR :: Handler Html
+postPerguntaR = do 
