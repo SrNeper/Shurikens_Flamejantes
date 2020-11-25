@@ -1,60 +1,23 @@
-﻿NINJAS:
+SOBRE:
 
 ------------------NARUTO------------------
-Naruto é exuberante, ousado, desatento,
-descuidado e indiferente para a formalidade
-ou posições sociais. Ele costuma terminar 
-frases com "Tô Certo!" quando animado ou
-frustrado. Come quase exclusivamente lámen,
-tem medo de fantasmas, além de carregar uma
-carteira gordinha de um sapo verde. Apesar 
-dessas peculiaridades, Naruto é dito ter uma
-personalidade que atrai as pessoas a ele,
-tendo uma amizade inspiradora e lealdade que
-a maioria das pessoas encontram nele através
-de seus atos de bondade e sinceridade genuína
-que pode mudar toda visão do mundo de um homem. 
+Naruto é exuberante, ousado, desatento, descuidado e indiferente para a formalidade ou posições sociais. Ele costuma terminar frases com "Tô Certo!" quando animado ou frustrado. Come quase exclusivamente lámen, tem medo de fantasmas, além de carregar uma carteira gordinha de um sapo verde. Apesar dessas peculiaridades, Naruto é dito ter uma personalidade que atrai as pessoas a ele, tendo uma amizade inspiradora e lealdade que a maioria das pessoas encontram nele através de seus atos de bondade e sinceridade genuína que pode mudar toda visão do mundo de um homem. 
 
---------------FRASE MARCANTE:------------------
-"Aquele que trabalha duro pode superar um gênio,
-mas de nada adianta trabalhar duro se você não
-confia em você mesmo…"
-================================================
 
 ------------------JIRAYA------------------
-Jiraya foi treinado por seu pai adotivo para
-tornar-se um ninja e sucedê-lo. Ao ter a irmã
-raptada, recebeu a armadura Olímpica e sua
-respectiva arma, a Espada Olímpica. Suas técnicas,
-agilidade e talento natos, faz com que se torne
-um ninja absolutamente invencível, matando
-praticamente todos os outros ninjas que lutam
-contra ele. Mesmo em situações adversas, quando
-lutou contra dois ao mesmo tempo, e também contra
-três, conseguiu tirar a vida de seus inimigos
-com facilidade.
+Jiraya foi treinado por seu pai adotivo para tornar-se um ninja e sucedê-lo. Ao ter a irmã raptada, recebeu a armadura Olímpica e sua respectiva arma, a Espada Olímpica. Suas técnicas, agilidade e talento natos, faz com que se torne um ninja absolutamente invencível, matando praticamente todos os outros ninjas que lutam contra ele. Mesmo em situações adversas, quando lutou contra dois ao mesmo tempo, e também contra três, conseguiu tirar a vida de seus inimigos com facilidade.
 
---------------FRASE MARCANTE:------------------
-"Não te perdoou!"
-================================================
 
 ------------------SUB-ZERO------------------
-Enquanto o jovem Sub-Zero foi descrito como
-um jovem guerreiro que estava vivendo na sombra
-de seu irmão mais velho, ele mudou desde então
-e cresceu em um guerreiro que progrediu para os
-lados mais humanos de questões morais. Esta
-mudança de características não só fortaleceu-o 
-omo um homem, mas também o distinguem de seus
-ex-colegas. Ele é o herói enigmático que aparece
-para ajudar o herói principal, quando necessário.
-
---------------FRASE MARCANTE:------------------
-"Eu obterei minha vingaça!"
-================================================
+Enquanto o jovem Sub-Zero foi descrito como um jovem guerreiro que estava vivendo na sombra de seu irmão mais velho, ele mudou desde então e cresceu em um guerreiro que progrediu para os lados mais humanos de questões morais. Esta mudança de características não só fortaleceu-o como um homem, mas também o distinguem de seus ex-colegas. Ele é o herói enigmático que aparece para ajudar o herói principal, quando necessário.
 
 
-<<<<<<< Updated upstream
+------------------GRAY FOX------------------
+Tinha visões ruins a respeito da vida, sempre negativo acerca de qualquer crença ou tipo de pensamento, acreditando que não adiantaria poupar algo ou alguém, já que tudo viria a morrer algum dia. Era descrito como bem comportado e inteligente, porém sempre com medos e receios, além de ser de natureza fria. Acreditava que seu papel ia além do que uma sociedade normal esperava devido aos seus instintos nativos de luta.
+
+
+
+
 Naruto:
 "Aquele que trabalha duro pode superar um gênio,mas,de nada adianta trabalhar duro se você não confia em você mesmo…"
 
@@ -64,75 +27,94 @@ Tudo que posso fazer é lutar, Snake ... tudo que posso fazer é lutar. "
 
 
 Jiraya:
-<<<<<<< HEAD
-"Não te perdoou!"
-	
-=======
 "Não te perdoo!"
 
->>>>>>> acd1bdc7d30cc6d4f2ac7ce1c94d70b63aba1377
 SubZero:
 ""
-=======
-------------------GRAY FOX------------------
-Tinha visões ruins a respeito da vida, sempre
-negativo acerca de qualquer crença ou tipo
-de pensamento, acreditando que não adiantaria
-poupar algo ou alguém, já que tudo viria a
-morrer algum dia. Era descrito como bem
-comportado e inteligente, porém sempre com medos
-e receios, além de ser de natureza fria.
-Acreditava que seu papel ia além do que uma
-sociedade normal esperava devido aos seus
-instintos nativos de luta.
-
---------------FRASE MARCANTE:------------------
-"O conflito está em nosso sangue. Não podemos
-negar. Eu nasci no campo de batalha ...
-E vou morrer no campo de batalha.
-Tudo que posso fazer é lutar, Snake ... 
-tudo que posso fazer é lutar. "
-================================================
->>>>>>> Stashed changes
 
 
 PERGUNTAS: QUE NINJA VOCÊ É?
 ---------------|-------------------|
 
-1. Qual desses esportes, você faria?
+----------------------NARUTO----------------------
 
-a) Caça 																| -- Gray Fox (04)
-b) Alpinismo 															| -- Naruto   (01)
-c) Formula 1 															| -- Jiraya   (02)
-d) Esqui no Gelo 														| -- SubZero  (03)
+1. Qual desses esportes, você faria?
+a) Boxe
+b) Surf
+c) Alpinismo (correta)
+d) Ciclismo
 
 2. Se pudesse ir para um desses lugares, para qual você iria?
+a) Noruega
+b) Amazônia (correta)
+c) Antártida
+d) Europa 
 
-a) Alaska           													| -- SubZero  (03)
-b) Amazonia         													| -- Naruto   (01) 
-c) Provincia de Iga 													| -- Jiraya   (02)
-d) Vietnã           													| -- Gray Fox (04)
-																		|
-3. Que comida é capaz de despertar o ninja em você?						|
-																		|
-a) Arroz Doce 															| -- Jiraya   (02)
-b) Ramen      															| -- Naruto   (01)
-c) Sorvete    															| -- SubZero  (03)
-d) Picadinho  															| -- Gray Fox (04)
+3. Qual desses poderia ser o seu jeito ninja?
+a) Eu nunca volto atrás na minha palavra (correta)
+b) O mais forte sempre é o mais justo
+c) Utilizarei de todos os meios para alcançar meu objetivo
+d) Não sou chegado a bebida alcoólica, sinceramente eu prefiro um suco de laranja
 
-4. Escolha uma arma!
+----------------------SUB-ZERO----------------------
 
-a) Katana      														 	| -- Gray Fox (04)
-b) Shuriken    															| -- Jiraya   (02)
-c) Kunai       															| -- Naruto   (01)
-d) Meus Punhos 															| -- SubZero  (03)
+1. Que comida é capaz de despertar o ninja em você?
+a) Chocolate
+b) Legumes
+c) Pimenta
+d) Sorvete (correta)
 
-5. Qual desses poderia ser o seu jeito ninja?
+2. Escolha um poder!
+a) Chamas negras
+b) Chicote de plantas
+c) Espada de gelo
+d) Meus punhos (correta)
 
-a) Eu nunca volto atrás na minha palavra                               	| -- Naruto   (01)
-b) Todos os problemas podem ser resolvidos em um campo de batalha      	| -- Gray Fox (04)
-c) Meu objetivo será alcançado, não importa quem fique no meu caminho. 	| -- SubZero  (03)
-d) Não tenho misericordia dos meus inimigos.                           	| -- Jiraya   (02)
+3. Qual desses poderia ser o seu jeito ninja?
+a) Se nos encontrarmos de novo, meu principal objetivo vai ser me divertir
+b) Meu objetivo será alcançado, não importa quem fique no meu caminho (correta)
+c) Utilizarei de todos os meios para alcançar meu objetivo
+d) Não sou um símbolo da justiça, apenas detesto pessoas que se acham muito valentes
+
+----------------------JIRAYA----------------------
+
+1. Qual desses esportes, você faria?
+a) Fórmula 1 (correta)
+b) Triathlon
+c) Natação
+d) Taekown-Do
+
+2. Escolha um poder!
+a) Atirar pelos dedos
+b) Disparado de energia pelos olhos
+c) Shuriken (correta)
+d) Transformar em animais
+
+3. Que comida é capaz de despertar o ninja em você?
+a) Churrasco
+b) Sushi
+c) Salada de frutas
+d) Arroz doce (correta)
+
+----------------------GRAY FOX----------------------
+
+1. Se pudesse ir para um desses lugares, para qual você iria?
+a) Vietnã (correta)
+b) Arábia Saudita
+c) Itália
+d) Japão
+
+2. Qual desses poderia ser o seu jeito ninja?
+a) Vou me tornar o guerreiro mais ágil que este mundo já viu
+b) Quero ser o herói número um do mundo
+c) Primeiro analiso a situação e as pessoas ao meu redor para então decidir o que faço
+d) Todos os problemas podem ser resolvidos em um campo de batalha (correta)
+
+3. Escolha um poder!
+a) Eletricidade
+b) Bastão 
+c) Telecinésia
+d) Katana (correta)
 
 -----------------------------------------------------------------------------------------------
 
