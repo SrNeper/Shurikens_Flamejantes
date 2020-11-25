@@ -154,3 +154,26 @@
       }
     });
   }
+  // Resultado do Quiz
+  function displayScore() {
+    var score = $('<p>',{id: 'question'});
+    
+    var numCorrect = 0;
+    for (var i = 0; i < selections.length; i++) {
+      if (selections[i] === questions[i].correctAnswer) {
+        numCorrect++;
+      }
+    }
+    
+	  if(numCorrect === 1){
+		score.append('Você acertou ' + numCorrect + ' questão de ' +
+					questions.length);
+	  }else{
+		score.append('Você acertou ' + numCorrect + ' questões de ' +
+					questions.length);
+					}
+    return score;
+  }
+
+ 
+})();
