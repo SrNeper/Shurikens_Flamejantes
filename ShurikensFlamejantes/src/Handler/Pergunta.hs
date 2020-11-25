@@ -49,3 +49,13 @@ postPerguntaR = do
             |]
             redirect PerguntaR
         _ -> redirect HomeR
+
+getListaQuestoesR :: Handler Html
+getListaQuestoesR = do
+    perguntas <- runDB $ selectList [] [Asc PerguntaId]
+    alternativas <- runDB $ selectList [] [Asc AlternativaDescricao]
+    
+    defaultLayout $ do
+        setTitle "Listagem de Questões"
+        addStylesheet (StaticR css_bootstrap_css)
+        $(whamletFile "templates/list-questions.hamlet")
