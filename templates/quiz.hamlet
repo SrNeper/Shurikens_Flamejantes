@@ -1,0 +1,49 @@
+$doctype 5
+<div #corpo-site>
+    <div #page>
+        <div #header>
+            <header #header-section>
+                <div .container>
+                    <div .nav-header>
+                        <a href="#" .js-nav-toggle nav-toggle><i>
+                        <h1 #logo>
+                            <a href=@{HomeR}>Shurikens<span>Flamejantes
+                        <nav #menu-wrap role="navigation">
+                            <ul .sf-menu #primary-menu>
+                                <li>
+                                    <a href=@{HomeR}>
+                                        HOME
+                                <li>
+                                    <a href=@{NinjaR} .sub-ddown>
+                                        NINJAS
+                                <li .active>
+                                    <a href=@{QuizR} .sub-ddown>
+                                        QUIZ NINJA!
+                                <li>
+                                    <a href=@{SobreR}>
+                                        SOBRE NÓS  
+        <div .hero .hero-2>
+                    <div .overlay>
+                    <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
+                        <div .desc .animate-box>
+                            <h2>Você está pronto para descobrir...
+                            <span> O quanto você sabe!?
+
+                <div #services>   
+                    <div>
+                        <div>
+                            <div .col-md-8 .col-md-push-1>
+                                <div #quiz>
+                                    <footer>
+                                        <div #next>
+                                            <a #next .page-link aria-label="Prveious">
+                                                <button  class="show">
+                                                    Avançar
+                                        <div #prev>
+                                            <a #prev href='#' .page-link aria-label="Next">
+                                                <button  class="show">
+                                                    Voltar
+                                        <div #start >
+                                            <a href='#' .page-link>
+                                                <button  class="show">
+                                                    Repetir.

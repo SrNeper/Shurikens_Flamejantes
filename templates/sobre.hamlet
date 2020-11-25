@@ -1,0 +1,42 @@
+$doctype 5
+<div #corpo-site>
+    <div #page>
+        <div #header>
+            <header #header-section>
+                <div .container>
+                    <div .nav-header>
+                        <a href="#" .js-nav-toggle nav-toggle><i>
+                        <h1 #logo>
+                            <a href=@{HomeR}>Shurikens<span>Flamejantes
+                        <nav #menu-wrap role="navigation">
+                            <ul .sf-menu #primary-menu>
+                                <li .active>
+                                    <a href=@{HomeR}>
+                                        HOME
+                                <li>
+                                    <a href=@{NinjaR} .sub-ddown>
+                                        NINJAS
+                                <li>
+                                    <a href=@{QuizR} .sub-ddown>
+                                        QUIZ NINJA
+                                <li>
+                                    <a href=@{SobreR}>
+                                        SOBRE NÓS  
+        <div .hero .hero-2>
+            <div .overlay>
+            <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
+                <div .desc .animate-box>
+                    <h2>Sobre
+                    <span>Site criado para projeto de Haskell - Novembro/2020.
+        <div #about>
+            <div .container>
+                <div .row>
+                    <div .col-md-8 .col-md-offset-2 .text-center .heading-section .animate-box>
+                        <h3>Sobre nós
+                        <h5>GRUPO
+                        <p>GUSTAVO ACOSTA <br>
+                        <p>RAFAEL LAGRANGE <br>
+                        <p>WESKLEY SANTOS <br>
+                        <h5> 6º Ciclo - ADS/SI
+                        <h4> Novembro/2020
+        <footer>
