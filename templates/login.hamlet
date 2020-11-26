@@ -1,0 +1,38 @@
+<div #corpo-site>
+    <div #page>
+        <div #header>
+            <header #header-section>
+                <div .container>
+                    <div .nav-header>
+                        <a href="#" .js-nav-toggle nav-toggle><i>
+                        <h1 #logo>
+                            <a href=@{HomeR}>Shurikens
+                        <nav #menu-wrap role="navigation">
+                            <ul .sf-menu #primary-menu>
+                                <li>
+                                    <a href=@{HomeR}>
+                                        HOME
+                                <li>
+                                    <a href=@{NinjaR} .sub-ddown>
+                                        NINJAS 
+                                <li >
+                                    <a href=@{QuizR} .sub-ddown>
+                                        QUIZ NINJA!
+                                <li>
+                                    <a href=@{SobreR}>
+                                        SOBRE NÓS
+                                <li>
+                                    <a href=@{PerguntaR}>
+                                        CADASTRO PERGUNTA
+                                 <li>
+                                    <a href=@{AlternativaR}>
+                                        CADASTRO ARTERNATIVA                                                                          
+        <div .hero .hero-2>
+            $maybe mensa <- msg
+                <div>
+                    ^{mensa}
+            <h1>
+                ENTRAR
+            <form method=post action=@{EntrarR}>
+                ^{widget}
+                <input type="submit" value="Entrar">
