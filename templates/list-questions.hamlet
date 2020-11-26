@@ -12,3 +12,5 @@
                             <li .list-item>correta -> #{alternativaDescricao alternativa}
                         $else
                             <li .list-item>#{alternativaDescricao alternativa}
+            <input type="submit" style="color: black;" value="Editar">
+        
