@@ -34,7 +34,7 @@
                     $maybe mensa <- msg 
                             ^{mensa}
                     <h2>
-                        CADASTRO DE PERGUNTA
+                        CADASTRO DE ARTERNATIVA
                     <form method=post action=@{PerguntaR}>
                         ^{widget}
                         <input type="submit" style="color: black;" value="Cadastrar">                    

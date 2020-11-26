@@ -36,7 +36,7 @@
                         <div>
                             ^{mensa}
                     <h2>
-                        CADASTRO DA Alternativa
+                        CADASTRO DA PERGUNTA
                     <form method=post action=@{AlternativaR}>
                         ^{widget}
                         <input type="submit" style="color: black;" value="Cadastrar">                   
