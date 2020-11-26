@@ -62,7 +62,6 @@ getQuizR = do
         addStylesheet (StaticR css_icomoon_css)
         addStylesheet (StaticR css_bootstrap_css)
         addStylesheet (StaticR css_superfish_css)
-        addStylesheet (StaticR css_style_css)
         addStylesheet (StaticR css_styleQuiz_css)
         addScript (StaticR js_jquery_js)
         addScript (StaticR js_modernizr_js)
@@ -96,7 +95,3 @@ getSobreR = do
         toWidget $(juliusFile "templates/julius/superfish.julius")
         toWidget $(juliusFile "templates/julius/main.julius")
         $(whamletFile "templates/sobre.hamlet")
-
-
-
-

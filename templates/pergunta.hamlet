@@ -18,30 +18,25 @@
                                 <li>
                                     <a href=@{QuizR} .sub-ddown>
                                         QUIZ NINJA!
-                                <li  .active>
+                                <li>
                                     <a href=@{SobreR}>
                                         SOBRE NÓS
-                                <li>
+                                <li  .active>
                                     <a href=@{PerguntaR}>
                                         CADASTRO PERGUNTA
                                  <li>
                                     <a href=@{AlternativaR}>
-                                        CADASTRO ARTERNATIVA                                                                              
-        <div .hero .hero-2>
+                                        CADASTRO ARTERNATIVA                                                                               
+                                                                              
+        <div .hero>
             <div .overlay>
-            <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
+            <div .cover .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
                 <div .desc .animate-box>
-                    <h2>Sobre
-                    <span>Site criado para projeto de Haskell - Novembro/2020.
-        <div #about>
-            <div .container>
-                <div .row>
-                    <div .col-md-8 .col-md-offset-2 .text-center .heading-section .animate-box>
-                        <h3>Sobre nós
-                        <h5>GRUPO
-                        <p>GUSTAVO ACOSTA <br>
-                        <p>RAFAEL LAGRANGE <br>
-                        <p>WESKLEY SANTOS <br>
-                        <h5> 6º Ciclo - ADS/SI
-                        <h4> Novembro/2020
-        <footer>
+                    $maybe mensa <- msg 
+                        <div>
+                            ^{mensa}
+                    <h2>
+                        CADASTRO DA Alternativa
+                    <form method=post action=@{AlternativaR}>
+                        ^{widget}
+                        <input type="submit" style="color: black;" value="Cadastrar">                   

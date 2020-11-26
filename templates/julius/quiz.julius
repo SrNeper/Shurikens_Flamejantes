@@ -97,7 +97,7 @@
     var header = $('<header><div class="title">Questão ' + (index + 1) + ':</div></header>');
     qElement.append(header);
     
-    var question = $('<span>').append(questions[index].question);
+    var question = $('<div class="title">').append(questions[index].question);
     qElement.append(question);
     
     var radioButtons = createRadios(index);
@@ -113,7 +113,7 @@
     var input = '';
     for (var i = 0; i < questions[index].choices.length; i++) {
       item = $('<div class="option">');
-      input = '<span><input type="radio" name="answer" value=' + i + ' />  </div>';
+      input = '<input type="radio" name="answer" value=' + i + ' /></div>';
       input += questions[index].choices[i].descricao;
       item.append(input);
       radioList.append(item);

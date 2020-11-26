@@ -22,8 +22,8 @@ perguntaCB = do
 formAlternativa :: Form Alternativa 
 formAlternativa = renderBootstrap $ Alternativa
     <$> areq (selectField perguntaCB) "Pergunta: " Nothing
-    <*> areq textField "Alternativa: " Nothing --testar
-    <*> areq boolField "É correta?: " Nothing
+    <*> areq textField "Digite uma alternativa: " Nothing --testar
+    <*> areq boolField "É a correta?: " Nothing
 
 -- Subindo alternativas para o banco
 postAlternativaR :: Handler Html
@@ -44,19 +44,23 @@ getAlternativaR :: Handler Html
 getAlternativaR = do 
     (widget,_) <- generateFormPost formAlternativa
     msg <- getMessage
-    defaultLayout $ 
-        [whamlet|
-            $maybe mensa <- msg 
-                <div>
-                    ^{mensa}
-            
-            <h1>
-                CADASTRO DA Alternativa
-            
-            <form method=post action=@{AlternativaR}>
-                ^{widget}
-                <input type="submit" value="Cadastrar">
-        |]
+    defaultLayout $ do
+        addStylesheet (StaticR css_animate_css)
+        addStylesheet (StaticR css_icomoon_css)
+        addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_superfish_css)
+        addStylesheet (StaticR css_style_css)
+        addScript (StaticR js_jquery_js)
+        addScript (StaticR js_modernizr_js)
+        addScript (StaticR js_easing_js)
+        addScript (StaticR js_bootstrap_js)
+        addScript (StaticR js_waypoints_js)
+        addScript (StaticR js_stellar_js)
+        addStylesheetRemote "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300"
+        toWidget $(juliusFile "templates/julius/hoverIntent.julius")
+        toWidget $(juliusFile "templates/julius/superfish.julius")
+        toWidget $(juliusFile "templates/julius/main.julius")        
+        $(whamletFile "templates/alternativa.hamlet")
 
 -- Resposta do quiz
 getQuizRespostaR :: Handler Value

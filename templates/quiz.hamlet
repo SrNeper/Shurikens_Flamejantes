@@ -1,4 +1,3 @@
-$doctype 5
 <div #corpo-site>
     <div #page>
         <div #header>
@@ -7,7 +6,7 @@ $doctype 5
                     <div .nav-header>
                         <a href="#" .js-nav-toggle nav-toggle><i>
                         <h1 #logo>
-                            <a href=@{HomeR}>Shurikens<span>Flamejantes
+                            <a href=@{HomeR}>Shurikens
                         <nav #menu-wrap role="navigation">
                             <ul .sf-menu #primary-menu>
                                 <li>
@@ -15,13 +14,19 @@ $doctype 5
                                         HOME
                                 <li>
                                     <a href=@{NinjaR} .sub-ddown>
-                                        NINJAS
-                                <li .active>
+                                        NINJAS 
+                                <li >
                                     <a href=@{QuizR} .sub-ddown>
                                         QUIZ NINJA!
                                 <li>
                                     <a href=@{SobreR}>
-                                        SOBRE NÓS  
+                                        SOBRE NÓS
+                                <li>
+                                    <a href=@{PerguntaR}>
+                                        CADASTRO PERGUNTA
+                                 <li>
+                                    <a href=@{AlternativaR}>
+                                        CADASTRO ARTERNATIVA                                                                          
         <div .hero .hero-2>
                     <div .overlay>
                     <div .cover .cover_2 .text-center data-stellar-background-ratio="0.5" style="background-image: url(@{StaticR imgs_capa_png});">
@@ -34,16 +39,17 @@ $doctype 5
                         <div>
                             <div .col-md-8 .col-md-push-1>
                                 <div #quiz>
+                                    <p>
+                                    <div #next>
+                                        <a #next .page-link aria-label="Prveious">
+                                            <button  class="show">
+                                                Avançar
+                                    <div #prev>
+                                        <a #prev href='#' .page-link aria-label="Next">
+                                            <button  class="show">
+                                                Voltar
+                                    <div #start >
+                                        <a href='#' .page-link>
+                                            <button  class="show">
+                                                Repetir.
                                     <footer>
-                                        <div #next>
-                                            <a #next .page-link aria-label="Prveious">
-                                                <button  class="show">
-                                                    Avançar
-                                        <div #prev>
-                                            <a #prev href='#' .page-link aria-label="Next">
-                                                <button  class="show">
-                                                    Voltar
-                                        <div #start >
-                                            <a href='#' .page-link>
-                                                <button  class="show">
-                                                    Repetir.
