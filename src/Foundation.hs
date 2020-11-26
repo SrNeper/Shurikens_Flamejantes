@@ -33,8 +33,8 @@ instance Yesod App where
     isAuthorized SobreR _ = return Authorized
     isAuthorized QuizPerguntaR _ = return Authorized
     isAuthorized QuizRespostaR _ = return Authorized
-    isAuthorized PerguntaR _ = return Authorized
-    isAuthorized AlternativaR _ = return Authorized
+    --isAuthorized PerguntaR _ = return Authorized
+    --isAuthorized AlternativaR _ = return Authorized
     isAuthorized _ _ = isUsuario
 isUsuario :: Handler AuthResult
 isUsuario = do 
