@@ -50,7 +50,7 @@ postEntrarR = do
                     redirect EntrarR
                 Just (Entity _ usu) -> do 
                     setSession "_NOME" (usuarioNome usu)
-                    redirect EntrarR
+                    redirect HomeR
         _ -> redirect HomeR
         
 postSairR :: Handler Html
