@@ -35,8 +35,8 @@
                     $maybe mensa <- msg
                         <div>
                             ^{mensa}
-                    <h1>
+                    <h2>
                         ENTRAR
                     <form method=post action=@{EntrarR}>
                         ^{widget}
-                        <input type="submit" value="Entrar">
+                        <input type="submit" style="colo: black;" value="Entrar">
